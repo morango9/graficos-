@@ -46,6 +46,10 @@ nav a:houver {
     transition: transform 0.1s;
 }
 
+.graficos {
+    margin-top: 3rem;
+ }
+
 .graficos-container {
     margin: 5rem;
 }
