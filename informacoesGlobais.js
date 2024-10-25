@@ -27,3 +27,4 @@ e passam em média <span>${horas}horas</span> e <span>${minutos} minutos</span> 
 
 
 VizualizarInformacoesGlobais()
+
