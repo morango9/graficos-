@@ -31,32 +31,32 @@
      }
         },
         xaxis: {
-          tickfont{
-              color: getCSS('-primary-color'),
-              size: 16
-          }
+          tickfont: tickConfig,
           title: {
-              text: 'nome das redes sociais',
+              text: 'Nome das redes',
               font: {
                   color: getCSS('--secondary-color')
               }
           }
       },
       yaxis: {
-              text: 'bilhões de usuários ativos',
-              font: {
-                  color: getCSS('--secondary-color')
-              }
-          }
-      }
-  }
-    
+        tickfont: tickConfig,
+        title: {
+            text: 'Bilhões de usuários ativos',
+            font: {
+                color: getCSS('--secondary-color')
+            }
+        }
+    }
+}
+
+
 
     const grafico = document.createElement('div')
     grafico.className = 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data , layout)
 
-  
+}
 
   quantidadeUsuarios()
